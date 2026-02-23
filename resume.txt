@@ -1,0 +1,104 @@
+Career Objective
+Detail-oriented Computer Science Engineering student graduating in 2026, aspiring to start a 
+career in Quality Assurance and Software Testing. Strong understanding of manual testing 
+fundamentals, test case design, bug reporting, and API-based systems, with hands-on exposure to 
+real-world projects. Highly motivated to grow as a QA Engineer while ensuring software 
+reliability, usability, and performance.
+Education
+B.Tech in Computer Science Engineering
+Keshav Memorial Institute of Technology, Hyderabad
+CGPA: 8.5
+Diploma in Computer Science Engineering
+Kamala Nehru Polytechnic for Women, Nampally
+CGPA: 9.8
+SSC
+Ravi's Brilliant High School
+GPA: 10/ 10
+Quality Assurance & Testing Skills
+Manual Testing Fundamentals
+•
+Test Case Design & Execution
+•
+Test Scenarios Preparation
+•
+Bug Identification & Defect Reporting
+•
+Severity vs Priority Understanding
+•
+SDLC & STLC Knowledge
+•
+Functional Testing, Regression Testing, Smoke & Sanity Testing
+•
+API Testing Basics (REST APIs, Status Codes)
+•
+Exposure to Automation Testing Concepts
+•
+Technical Skills
+2023 – 2026
+2020 – 2023
+2020
+Testing & QA — Manual Testing , Test Case Writing , Bug Reporting & Documentation , API
+Testing (Postman– basics)
+Programming & Scripting — Python, Java, JavaScript, TypeScript
+Web & Backend Knowledge — REST APIs , Node.js, Express.js , Firebase (Auth & Firestore)
+Tools — Jupyter Notebook, Git, GitHub, VS Code
+Courseworks
+Core Concepts
+Artificial Intelligence & Machine Learning , Operating Systems, DBMS, Computer Networks, 
+Cloud Computing.
+Achievements
+Top 6 Finalist – SpinSci AI Hackathon India 2026
+SpinSci Technologies
+Top 10 Finalist, Virtu-Innovate 2k24 Hackathon
+Wassion Talks
+HackPrix Hackathon
+Lords Institute of Engineering & Technology
+Generative Al Mastermind
+Outskill
+Projects
+SYLA – AI-Powered Menstrual Health & Wellness Platform
+•
+Technologies: React Native (Expo), TypeScript, Firebase (Auth & Firestore), LangChain, Gemini AI API, 
+Cloud Functions
+Performed functional and manual testing on multiple app modules including authentication, 
+data input, and report generation.
+•
+Designed and executed test cases for user flows such as login, registration, cycle tracking, and 
+chatbot interactions.
+•
+Identified UI and functional issues during development and collaborated with developers for 
+fixes.
+Tested API responses and data consistency across Firebase backend services.
+•
+•
+Ensured application reliability, correctness, and user experience through continuous testing 
+cycles.
+DocSort Document Classification System
+Technologies: React, Flask, Python, NLP, ML, Spacy, Embedding Models, MongoDB
+•
+Validated application functionality by testing file uploads (TXT, PDF, DOC) and classification 
+outputs.
+Created test scenarios to verify document categorization accuracy.
+•
+Tested backend APIs for response correctness and error handling.
+•
+Ensured smooth frontend-backend integration through systematic testing.
+•
+Lectures Check - Lecture Validation and Analysis System
+Technologies: MERN Stack, BERT, NLP, MongoDB
+Conducted manual testing of lecture upload and analysis workflows.
+•
+Verified accuracy of NLP-based content matching results.
+•
+Tested data storage, retrieval, and result visualization modules.
+•
+Reported defects related to content mismatch and UI behavior.
+•
+Strengths
+Ownership-driven and proactive
+•
+Fast learner with continuous improvement mindset
+•
+Clear communication and documentation skills
+•
+Passion for software quality and reliability

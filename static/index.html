@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Mentor Agent</title>
+    <link rel="stylesheet" href="/static/style.css?v=2">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-icon">🚀</div>
+            <h1>AI Career Mentor Agent</h1>
+            <p class="subtitle">Get personalized career insights, skill gap analysis, study plans, and interview preparation</p>
+        </header>
+
+        <main>
+            <div class="features-showcase">
+                <div class="feature-item">
+                    <span class="feature-icon">📄</span>
+                    <span class="feature-text">Resume Analysis</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔍</span>
+                    <span class="feature-text">Skill Gap Detection</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📚</span>
+                    <span class="feature-text">Study Roadmap</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">💼</span>
+                    <span class="feature-text">Interview Prep</span>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <form id="analysisForm">
+                    <div class="form-group">
+                        <label for="targetRole">Target Role *</label>
+                        <input 
+                            type="text" 
+                            id="targetRole" 
+                            name="targetRole" 
+                            placeholder="e.g., Software Engineer, Data Scientist, Product Manager"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="resumeText">Resume Text *</label>
+                        <textarea 
+                            id="resumeText" 
+                            name="resumeText" 
+                            rows="15" 
+                            placeholder="Paste your resume text here..."
+                            required
+                        ></textarea>
+                        <small> Paste your resume text directly</small>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="btn-primary">
+                        <span class="btn-text">🚀 Analyze Career</span>
+                        <span class="btn-loader" style="display: none;">⏳ Analyzing...</span>
+                    </button>
+                </form>
+            </div>
+
+            <div id="loadingSection" class="loading-section" style="display: none;">
+                <div class="spinner-container">
+                    <div class="spinner"></div>
+                </div>
+                <div class="loading-status">
+                    <p class="status-text" id="statusText">Initializing analysis...</p>
+                    <div class="status-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="progress-steps">
+                    <div class="step" id="step1">
+                        <span class="step-icon">📄</span>
+                        <span class="step-title">Resume Analysis</span>
+                        <span class="step-status">Pending</span>
+                    </div>
+                    <div class="step" id="step2">
+                        <span class="step-icon">🔍</span>
+                        <span class="step-title">Skill Gap Analysis</span>
+                        <span class="step-status">Pending</span>
+                    </div>
+                    <div class="step" id="step3">
+                        <span class="step-icon">📚</span>
+                        <span class="step-title">Study Planner</span>
+                        <span class="step-status">Pending</span>
+                    </div>
+                    <div class="step" id="step4">
+                        <span class="step-icon">💼</span>
+                        <span class="step-title">Interview Questions</span>
+                        <span class="step-status">Pending</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="resultsSection" class="results-section" style="display: none;">
+                <div class="results-header">
+                    <h2>✨ Your Career Analysis Results</h2>
+                    <p class="results-subtitle">Comprehensive insights tailored just for you</p>
+                </div>
+                
+                <div class="result-card" id="analysisCard">
+                    <div class="card-header">
+                        <span class="card-icon">📄</span>
+                        <h3>Resume Analysis</h3>
+                    </div>
+                    <div class="card-content" id="analysisContent"></div>
+                </div>
+
+                <div class="result-card" id="gapsCard">
+                    <div class="card-header">
+                        <span class="card-icon">🔍</span>
+                        <h3>Skill Gap Analysis</h3>
+                    </div>
+                    <div class="card-content" id="gapsContent"></div>
+                </div>
+
+                <div class="result-card" id="roadmapCard">
+                    <div class="card-header">
+                        <span class="card-icon">📚</span>
+                        <h3>7-Day Study Roadmap</h3>
+                    </div>
+                    <div class="card-content" id="roadmapContent"></div>
+                </div>
+
+                <div class="result-card" id="questionsCard">
+                    <div class="card-header">
+                        <span class="card-icon">💼</span>
+                        <h3>Interview Questions</h3>
+                    </div>
+                    <div class="card-content" id="questionsContent"></div>
+                </div>
+
+                <button class="btn-secondary" onclick="resetForm()">Analyze Another Resume</button>
+            </div>
+
+            <div id="errorSection" class="error-section" style="display: none;">
+                <div class="error-card">
+                    <span class="error-icon">⚠️</span>
+                    <h3>Error</h3>
+                    <p id="errorMessage"></p>
+                    <button class="btn-secondary" onclick="resetForm()">Try Again</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by LangGraph & OpenAI GPT-3.5</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
