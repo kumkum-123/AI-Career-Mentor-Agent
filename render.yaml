@@ -3,8 +3,5 @@ services:
     name: ai-career-mentor-agent
     env: python
     plan: free
-    buildCommand: |
-      pip install --upgrade pip
-      pip install "pydantic<2.6" --only-binary=:all:
-      pip install -r requirements.txt
-    startCommand: "uvicorn app:app --host 0.0.0.0 --port 10000"
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port 10000
